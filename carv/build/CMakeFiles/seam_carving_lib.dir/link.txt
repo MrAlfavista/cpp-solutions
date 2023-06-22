@@ -1,0 +1,2 @@
+/usr/bin/ar qc libseam_carving_lib.a  CMakeFiles/seam_carving_lib.dir/src/Image.cpp.o CMakeFiles/seam_carving_lib.dir/src/SeamCarver.cpp.o
+/usr/bin/ranlib libseam_carving_lib.a

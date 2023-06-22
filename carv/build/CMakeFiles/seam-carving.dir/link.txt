@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/seam-carving.dir/src/main.cpp.o  -o seam-carving  libseam_carving_lib.a 

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Image.h
+iostream
+-
+vector
+-
+
+../include/SeamCarver.h
+Image.h
+../include/Image.h
+
+/mnt/d/carv/seam-carving-MrAlfavista/src/main.cpp
+Image.h
+/mnt/d/carv/seam-carving-MrAlfavista/src/Image.h
+SeamCarver.h
+/mnt/d/carv/seam-carving-MrAlfavista/src/SeamCarver.h
+fstream
+-
+iostream
+-
+
